@@ -1,3 +1,171 @@
 .title {
-  color: #02ccba;
+  color: #0066CC;
+}
+
+#text-button {
+  margin: auto;
+  cursor: pointer;
+  width: 160px;
+  border: 1px solid #232323;
+}
+
+
+body {
+  margin: 0;
+}
+
+.intro {
+  display: flex;
+}
+
+.intro div {
+  flex: auto;
+}
+
+.intro-jo {
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.intro-igy {
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.box14{
+    padding: 0.2em 0.5em;
+    margin: 2em 0;
+    background: #d6ebff;
+    box-shadow: 0px 0px 0px 10px #d6ebff;
+    border: dashed 2px white;
+}
+.box14 p {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+}
+
+.top-wrapper {
+  padding: 50px 0 50px 10px;
+  background-image: url(toilet-paper.jpg);
+  background-size: cover;
+  color: black;
+  text-align: center;
+}
+
+.top-wrapper p {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+
+.page_top{
+  width: 100px;
+  height: 60px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: #ef3f98;
+  opacity: 0.6;
+}
+.page_top a{
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 60px;
+  text-decoration: none;
+}
+.page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -25px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+.page_top a::after{
+  content: 'PAGE TOP';
+  font-size: 13px;
+  color: #fff;
+  position: absolute;
+  top: 30px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+
+#btn_igy_detail_open {
+  text-align: center;
+  font-size: 13px;
+  background-color: #0066CC;
+  color: white;
+  padding: 8px 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#btn_igy_detail_close {
+  text-align: center;
+  font-size: 13px;
+  background-color: #0066CC;
+  color: white;
+  padding: 8px 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#btn_jo_detail_open {
+  text-align: center;
+  font-size: 13px;
+  background-color: #0066CC;
+  color: white;
+  padding: 8px 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#btn_jo_detail_close {
+  text-align: center;
+  font-size: 13px;
+  background-color: #0066CC;
+  color: white;
+  padding: 8px 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+footer {
+  padding-left: 20px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #dcdcdc;
+  height: 80px;
+}
+
+footer p {
+  font-size: 13px;
+}
+
+footer p1 {
+  font-size: 13px;
 }
